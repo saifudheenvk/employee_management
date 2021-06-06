@@ -1,0 +1,18 @@
+@import "~antd/dist/antd.css";
+
+.rotate-image {
+  animation: rotation 8s infinite linear;
+}
+.App {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
